@@ -1,0 +1,26 @@
+{
+  "name": "npm-mini-node",
+  "version": "0.0.1",
+  "description": "npm init test for mini node server",
+  "main": "./server/basic-server.js",
+  "scripts": {
+    "start": "nodemon basic-server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunju-song/im-sprint-mini-node-server.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Hyunju Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunju-song/im-sprint-mini-node-server/issues"
+  },
+  "homepage": "https://github.com/hyunju-song/im-sprint-mini-node-server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
